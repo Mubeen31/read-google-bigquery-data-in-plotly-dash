@@ -17,7 +17,7 @@ app.layout = html.Div([
 
     html.Div([
         dcc.Interval(id = 'update_date_time_value',
-                     interval = 60000,
+                     interval = 65000,
                      n_intervals = 0),
     ]),
 
@@ -41,7 +41,6 @@ def solar_first_card_value_callback(n_intervals):
     Voltage,
     ValueCurrent
     FROM `solardata-360222.SolarSensorsData.SensorsData`
-    LIMIT 1
     """
     df = pd.read_gbq(df_sql, project_id = project_id, dialect = 'standard', credentials = credentials)
     get_voltage = df['Voltage'].tail(1).iloc[0]

@@ -6,7 +6,7 @@ import time
 while True:
     time.sleep(65)
     header_list = ['DateTime', 'Voltage', 'Current']
-    df = pd.read_csv('D:\solar energy monitoring and prediction system\solar power and weather data/sensors_data.csv',
+    df = pd.read_csv('https://raw.githubusercontent.com/Mubeen31/solar-power-and-weather-data/main/sensors_data.csv',
                      names = header_list)
     data_time = df['DateTime'].tail(1).iloc[0]
     voltage = df['Voltage'].tail(1).iloc[0]
