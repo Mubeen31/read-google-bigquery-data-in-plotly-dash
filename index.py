@@ -17,7 +17,7 @@ app.layout = html.Div([
 
     html.Div([
         dcc.Interval(id = 'update_date_time_value',
-                     interval = 65000,
+                     interval = 70000,
                      n_intervals = 0),
     ]),
 
