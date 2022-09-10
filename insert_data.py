@@ -4,7 +4,7 @@ import pandas as pd
 import time
 
 while True:
-    time.sleep(65)
+    time.sleep(62)
     header_list = ['DateTime', 'Voltage', 'Current']
     df = pd.read_csv('https://raw.githubusercontent.com/Mubeen31/solar-power-and-weather-data/main/sensors_data.csv',
                      names = header_list)
