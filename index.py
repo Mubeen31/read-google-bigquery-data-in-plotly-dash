@@ -41,6 +41,7 @@ def solar_first_card_value_callback(n_intervals):
     Voltage,
     ValueCurrent
     FROM `solardata-360222.SolarSensorsData.SensorsData`
+    ORDER BY DateTime
     """
     df = pd.read_gbq(df_sql, project_id = project_id, dialect = 'standard', credentials = credentials)
     get_voltage = df['Voltage'].tail(1).iloc[0]
