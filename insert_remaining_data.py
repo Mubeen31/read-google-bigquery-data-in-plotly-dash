@@ -18,7 +18,7 @@ df5 = pd2.to_gbq(df4,
                  chunksize = None,
                  if_exists = 'append')
 
-# if insert_row == []:
-#     print('New row have been added.')
+# if df5 == []:
+#     print('New rows have been added.')
 # else:
-#     print(f'Encountered errors while inserting rows: {insert_row}')
+#     print(f'Encountered errors while inserting rows: {df5}')
