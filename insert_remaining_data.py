@@ -6,7 +6,7 @@ header_list = ['DateTime', 'Voltage', 'ValueCurrent']
 df = pd1.read_csv(
     'D:\solar energy monitoring and prediction system\solar power and weather data/sensors_data.csv',
     names = header_list)
-df4 = df[(df['DateTime'] >= '2022-09-30 08:53:15') & (df['DateTime'] <= '2022-09-30 15:10:10')][
+df4 = df[(df['DateTime'] >= '2022-10-01 00:00:39') & (df['DateTime'] <= '2022-10-01 23:59:56')][
     ['DateTime', 'Voltage', 'ValueCurrent']]
 credentials = service_account.Credentials.from_service_account_file('solardata-key.json')
 project_id = 'solardata-360222'
