@@ -34,13 +34,13 @@ app.layout = html.Div([
 @app.callback(Output('first_card', 'children'),
               [Input('update_date_time_value', 'n_intervals')])
 def solar_first_card_value_callback(n_intervals):
-    credentials = service_account.Credentials.from_service_account_file('solardata-key.json')
-    project_id = 'solardata-360222'
+    credentials = service_account.Credentials.from_service_account_file('data-streaming-key.json')
+    project_id = 'type here project id'
     df_sql = f"""SELECT
     DateTime,
     Voltage,
     ValueCurrent
-    FROM `solardata-360222.SolarSensorsData.SensorsData`
+    FROM `type here table id`
     ORDER BY DateTime
     """
     df = pd.read_gbq(df_sql, project_id=project_id, dialect='standard', credentials=credentials)
