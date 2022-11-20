@@ -11,7 +11,7 @@ while True:
     voltage = df['Voltage'].tail(1).iloc[0]
     current = df['Current'].tail(1).iloc[0]
 
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'data-streaming-key.json'
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'key.json'
 
     client = bigquery.Client()
     table_id = 'type here table id'
