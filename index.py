@@ -34,7 +34,7 @@ app.layout = html.Div([
 @app.callback(Output('first_card', 'children'),
               [Input('update_date_time_value', 'n_intervals')])
 def solar_first_card_value_callback(n_intervals):
-    credentials = service_account.Credentials.from_service_account_file('data-streaming-key.json')
+    credentials = service_account.Credentials.from_service_account_file('key.json')
     project_id = 'type here project id'
     df_sql = f"""SELECT
     DateTime,
