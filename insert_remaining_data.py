@@ -9,7 +9,7 @@ df = pd1.read_csv(
 )
 # df4 = df[(df['DateTime'] >= '2022-10-04 00:13:11') & (df['DateTime'] <= '2022-10-04 11:55:42')][
 #     ['DateTime', 'Voltage', 'ValueCurrent']]
-credentials = service_account.Credentials.from_service_account_file('data-streaming-key.json')
+credentials = service_account.Credentials.from_service_account_file('key.json')
 project_id = 'type here project id'
 table_id = 'type here table id'
 df5 = pd2.to_gbq(df,
