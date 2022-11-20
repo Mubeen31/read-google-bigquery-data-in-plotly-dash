@@ -1,12 +1,1 @@
-{
-  "type": "service_account",
-  "project_id": "data-streaming-368616",
-  "private_key_id": "6575c38717ad8f47481ed117d68e1f841dcb3210",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDiNBz2T1py7dX2\naM6gy73o5lOojfWQQQotbEoTBt8rAxJn3rn/nFKitKMW0MS1IrxjKkCePjE7e2sf\ny2KBB1WTTlIK1J3GdUzbyk0KC0bCxvQAAvxNG/sJUJ8ekUEXSFi9k0ZU+VTNB2Wx\nson/wwv88Z07oHGAWjRPYeaGgVMhZAj4fYZVFuu6LdJdHDL7Tn27MC+2qcmf1KwS\nUsjUtOfYvRHbdHvTaYFGntILkbb9XovQiblldf4DubU5TcwddNRwWb8Od3S4okcV\n++fbagbw56j65OffeGHTwafM5Xqq/yGRd3WDXqpN8QbzL4wxW4RObzEVgPrQTGw+\nQmQ6cLPtAgMBAAECggEAXSIFtqfvXphr2rtGL9ATDdwfH6vrKgyNSyxlxzWyFrx6\nDIgYXpSXNWRYLaGhC88Ub2PLHRwQGyRyc7HCictiQXcislDd8QMEtQ2y8Gq6JKHT\nflm8VWcq0af/C4/Uk+h2mP8VGxFZB91+0k3nIYXF3sv/57fkY2tAVFrDlieS+ZC3\nHi7kgBuME4WdLEG1NN3wDdno5UCgiww4f10qqH8Kb+70URkLomLIRj98aPacPCS+\nSKtDbObSbE+f9CzmRsOA2ZvZrXeSB++6FYeFRhlKy+y071ub3en1nmzyNTkcb5fi\nlohUPOnx8rsauxcrhs7Lh76tiXu831nxVOstaKurJQKBgQD35PtZWeutalDk32+9\n4N8BKy9nOO+1BmmTBTsxrshrJPxugFcnhupr3060ieG7xJ7S3v2Bh2kYT+u1Pg2n\n6inEaOBrvvMwxy6W36O1p1FxP0XFDBpb76UGr3zxfz6Ss6t0qLTXo3cO4wZ/THyr\nzVeA7gz/qDu/g+OCHBVEo8x0mwKBgQDpmZDuhAZm4THcvy0aWa1wvj7JPTUMn5jQ\nDwCXtgqD+rIq2IQtBEO0cQVZDhoAc5v6qMOnDJ84Hl4JNISqPgj8dJxoRl5PlFgl\nY7BWIGnnGBxw70nzl3/BytMmmGGyyEGtDptBY3wHuFLjNAjHklvdIw3/rE/dGy5h\nRz0p39FOFwKBgQDvyd2gZqzkyGyLl96dC4JrvPxTmu20bAl/n5XMz0cq7VIJCbhE\nker8gbu+Q4nJeb4wOGd7/iIY1GYqoWXQQWA5j0FWuBTB4EoewyG2u6y6IPw6SSTO\nPZeiSepQKEe83HNDm1WjKYonKk/En5YREcZM/vgv7OourUNLPiMMjG1fdQKBgCaG\nJNiw/T1KNibpgE6wK2JEfaZCadVDHLhzQO3EH8fUOD3Ip0OlSGUhnngpUzBv4HFe\nE6Yg9sESgP+Toa1RvbmkoYaw1Czbkg3YeuQ5RD3QRCB71f5OJcuX32qmBratP+eC\nWShXd8TuKP0/P5NqF6xIc66OhD06llOEpBmbx7DRAoGAVm8cJvlA7nY+7OeJmPSn\naJR7IBCr1UNbHPNwrhOeOEnr0NnJtMtjwVyp/fhk20hvUwXd+0Q5IVryi1sWayeb\npGCDkPRb6hiq9zFNht+99xohk/OfF41ZJn26uBbSUYvoeOg+b3HjZ3MDPneJPVd2\nMkl4Pq9nqQUQq93YcqWWHyQ=\n-----END PRIVATE KEY-----\n",
-  "client_email": "solar-and-weather-data-streami@data-streaming-368616.iam.gserviceaccount.com",
-  "client_id": "104802450587734066283",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/solar-and-weather-data-streami%40data-streaming-368616.iam.gserviceaccount.com"
-}
+
